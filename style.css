@@ -1,16 +1,47 @@
-.navigation {
-    display: inline-block;
-    flex-direction: row;
-    height: 100px; 
-    text-align: center;
-    line-height: 30px;
+body{
+    background-color: #cbe9f0;
 }
 
-header {
-    background-color: grey;
-    width: 100%; 
-    vertical-align: middle;
+.stocks-section {
+    padding: 2rem;
+    background-color: var(--darkgrey);
 }
+
+.stock-card-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stock-card {
+    background-color: #cbe9f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.stock-card-value {
+    color: rgb(21, 29, 56);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.stock-card img {
+
+}
+button {
+    display: block;
+    background-color: #153a49;
+    color: #e7e7e7;
+    font-size: 16px;
+    padding: 15px;
+    border-radius:5px;
+
 
 .navigation h1 {
     margin-left: 30px;
